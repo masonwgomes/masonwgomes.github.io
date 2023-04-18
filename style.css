@@ -623,6 +623,10 @@ svg {
   text-decoration: underline;
 }
 
+.contactContainer {
+  margin-bottom: 10px;
+}
+
 .heroCarousel {
   width: 750px;
   height: 750px;
@@ -683,6 +687,11 @@ svg {
   margin-bottom: 250px;
 }
 
+.formLink {
+  color: white;
+  text-decoration: underline;
+}
+
 @media only screen and (max-width: 1200px) {
   .container {
     width: 100%;
@@ -724,15 +733,14 @@ svg {
     width: 100vw;
   }
 
-  .footerContainer {
-    grid-area: footer;
-    flex-direction: column;
-    width: 100vw;
-  }
-
   .heroTitle {
     font-size: 50px;
-    margin-left: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    white-space: nowrap;
+    margin-left: 125px;
   }
 
   .heroSubtitle {
@@ -777,7 +785,7 @@ svg {
 
   .bioContainer {
     /* margin-left: 0px; */
-    margin: 0px;
+    margin: 50px 0 0 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -788,7 +796,7 @@ svg {
 
   .bioDescription {
     font-size: 20px;
-    margin: 0px;
+    margin: 0 0 25px 0;
     width: 300px;
   }
 
@@ -796,6 +804,10 @@ svg {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+  }
+
+  .posterContainer {
+    grid-gap: 75px;
   }
 
   #work {
@@ -814,7 +826,7 @@ svg {
     flex-direction: column;
   }
 
-  .pastaMatchbox img{
+  .pastaMatchbox img {
     width: 90vw;
     height: auto;
   }
@@ -831,7 +843,7 @@ svg {
     flex-direction: column;
   }
 
-  .mugDrawing img{
+  .mugDrawing img {
     width: 90vw;
     height: auto;
   }
@@ -856,5 +868,22 @@ svg {
 
   .footerContainer {
     margin-top: 50px;
+    height: 150px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mainFooter {
+    margin-right: 0px;
+    margin-top: 10px;
+  }
+
+  .gaslyWebsitePreview {
+    margin-bottom: 75px;
+  }
+
+  .workPic {
+    width: 100%;
   }
 }
