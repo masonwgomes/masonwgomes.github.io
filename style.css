@@ -114,7 +114,7 @@ body {
 
 .heroSubtitle {
   margin-bottom: 20px;
-  font-size: 35px;
+  font-size: 25px;
   margin-left: 20px;
 }
 
@@ -126,7 +126,7 @@ body {
 .bioTitle {
   font-size: 50px;
   color: white;
-  text-shadow: 5px -2px 0 rgb(255, 0, 0), -5px 2px 0 rgba(0, 255, 255, 1);
+  text-shadow: 3px -1px 0 rgb(255, 0, 0), -3px 2px 0 rgba(0, 255, 255, 1);
 }
 
 .bioDescription {
@@ -159,7 +159,7 @@ body {
 .workTitle {
   font-size: 50px;
   color: white;
-  text-shadow: 5px -2px 0 rgb(255, 0, 0), -5px 2px 0 rgba(0, 255, 255, 1);
+  text-shadow: 3px -1px 0 rgb(255, 0, 0), -3px 2px 0 rgba(0, 255, 255, 1);
   text-align: center;
 }
 
@@ -517,7 +517,7 @@ body {
   font-size: 50px;
   font-weight: bold;
   text-decoration-line: underline;
-  animation: glitchtext 2000ms linear infinite;
+  text-shadow: 3px -1px 0 rgb(255, 0, 0), -3px 2px 0 rgba(0, 255, 255, 1);
 }
 
 /* .link:hover {
@@ -620,7 +620,7 @@ svg {
 }
 
 .contactTitle {
-  text-decoration: underline;
+  margin-bottom: 10px;
 }
 
 .contactContainer {
@@ -795,7 +795,7 @@ svg {
   }
 
   .bioDescription {
-    font-size: 20px;
+    font-size: 17px;
     margin: 0 0 25px 0;
     width: 300px;
   }
@@ -818,8 +818,13 @@ svg {
   .workTitle {
     width: 100vw;
     margin-top: 75px;
+    font-size: 35px;
   }
 
+
+  .bioTitle{
+    font-size: 35px;
+  }
   .matchboxContainer {
     width: 100vw;
     display: flex;
@@ -885,5 +890,13 @@ svg {
 
   .workPic {
     width: 100%;
+  }
+
+  .link{
+    font-size: 35px;
+  }
+
+  .linkDescription{
+    font-size: 20px;
   }
 }
