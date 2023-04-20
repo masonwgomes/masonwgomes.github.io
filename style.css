@@ -808,7 +808,7 @@ svg {
 
   .bioDescription {
     font-size: 17px;
-    margin: 0 0 25px 0;
+    margin: 5px 0 25px 0;
     width: 300px;
   }
 
@@ -870,7 +870,8 @@ svg {
     display: flex;
     flex-direction: column;
     text-align: center;
-    grid-gap: 50px;
+    grid-gap: 25px;
+    margin-top: 75px;
   }
 
   .gaslyWebsitePreview {
