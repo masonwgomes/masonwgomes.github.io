@@ -739,7 +739,8 @@ svg {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
+    margin-left: 0px;
     white-space: nowrap;
     /* margin-left: 50vw; */
   }
@@ -910,4 +911,6 @@ svg {
   .linkDescription{
     font-size: 20px;
   }
+
+
 }
