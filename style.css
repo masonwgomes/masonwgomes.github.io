@@ -731,6 +731,7 @@ svg {
     background-size: cover;
     background-position: center;
     width: 100vw;
+    
   }
 
   .heroTitle {
@@ -740,12 +741,17 @@ svg {
     justify-content: center;
     width: 100%;
     white-space: nowrap;
-    margin-left: 50vw;
+    /* margin-left: 50vw; */
   }
 
   .heroSubtitle {
     font-size: 30px;
     margin-left: 0px;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   .heroContent {
@@ -756,6 +762,11 @@ svg {
     flex-direction: column;
     margin-top: 200px;
     margin-bottom: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    border-radius: 0px;
+    background-color: rgba(41, 41, 41, 0);
   }
 
   .heroCarousel {
