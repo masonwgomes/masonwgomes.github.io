@@ -134,7 +134,7 @@ body {
   color: white;
   margin: 50px 0px 50px 0px;
   text-align: left;
-  font-weight: 500;
+  font-weight: 5.00;
 }
 
 .bioButton {
@@ -693,6 +693,17 @@ svg {
   text-decoration: underline;
 }
 
+
+.business-card{
+  width: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 25px;
+  margin-top: 25px;
+}
+
 @media only screen and (max-width: 1200px) {
   .container {
     width: 100%;
@@ -867,7 +878,7 @@ svg {
   }
 
   .linkContainer {
-    width: 100vw;
+    width: 90vw;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -914,5 +925,15 @@ svg {
     font-size: 20px;
   }
 
+  .business-card{
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .business-card img{
+    width: 300px;
+}
 
 }
