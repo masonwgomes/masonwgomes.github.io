@@ -10,3 +10,6 @@ One of the biggest challenges I had with this site was trying to get the hover e
 <br>
 <br>
 Overall, this was a very fun project to work on. I got to use more code and build another website, but instead of making one around a driver, it was about me. I also never had a consistent portfolio, so having this website as something I can show people if they are interested in my work is very cool. I am happy with how it turned out, but one of the only things I would want to add is a resume tab on the navbar leading to a page with my resume on it. Along with the resume, I want to add more works of mine so people can get a real sense of who I am.
+<br>
+<br>
+Glitch effect: https://codepen.io/mftaskin/pen/poKGVQq
