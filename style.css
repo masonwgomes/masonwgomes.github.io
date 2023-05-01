@@ -134,7 +134,7 @@ body {
   color: white;
   margin: 50px 0px 50px 0px;
   text-align: left;
-  font-weight: 5.00;
+  font-weight: 600;
 }
 
 .bioButton {
@@ -702,6 +702,10 @@ svg {
   justify-content: center;
   grid-gap: 25px;
   margin-top: 25px;
+}
+
+.linkDescription{
+  font-weight: 600;
 }
 
 @media only screen and (max-width: 1200px) {
