@@ -685,7 +685,7 @@ svg {
   height: auto;
   width: 1500px;
   margin-top: 50px;
-  margin-bottom: 250px;
+  margin-bottom: 150px;
 }
 
 .formLink {
@@ -916,7 +916,7 @@ svg {
   }
 
   .gaslyWebsitePreview {
-    margin-bottom: 75px;
+    margin-bottom: 50px;
   }
 
   .workPic {
