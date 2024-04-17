@@ -1,0 +1,572 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #cc5e5e;
+  text-decoration: none;
+}
+
+.white-word {
+  color: white;
+}
+
+.red-word {
+  color: #cc5e5e;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #323232;
+}
+
+.tab-box {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.25em;
+  font-family: tahoma;
+  margin-right: 50px;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.logo {
+  margin-left: 3em;
+}
+
+.tab {
+  margin: 0 25px 0 25px;
+  color: white;
+  font-weight: 600;
+}
+
+.tab:hover {
+  margin: 0 25px 0 25px;
+  color: #cc5e5e;
+  font-weight: 600;
+}
+
+.gradient-box {
+  width: 100%;
+  height: 0.5em;
+  background: linear-gradient(to right, #434343, #a69954, #ff0000);
+}
+
+body {
+  background: linear-gradient(to right, #333, #555555, #333);
+}
+
+.bodyBackground {
+  background-image: url("websitebgbw.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.homeTextBox {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-top: 10em;
+  margin-right: 7.5em;
+  text-align: center;
+}
+
+.homeText {
+  font-family: tahoma;
+  font-weight: 600;
+  text-align: left;
+  font-size: 2.5em;
+}
+
+.homeTextButton {
+  color: #ffffff;
+  font-family: tahoma;
+  font-weight: bold;
+  border: 0.3em solid #cc5e5e;
+  padding: 0.4em;
+  background-color: transparent;
+}
+
+.homeTextButton:hover {
+  color: #773535;
+  font-family: tahoma;
+  font-weight: bold;
+  border: 0.3em solid;
+  padding: 0.4em;
+  background-color: transparent;
+}
+
+.socialBox svg {
+  fill: #ffffff;
+}
+
+.socialBox svg:hover {
+  fill: #773535;
+}
+
+.socialBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+  background-color: rgba(0, 0, 0, 0.164);
+  width: 2em;
+  border: 0.2em solid;
+  border-color: #cc5e5e;
+  border-radius: 1em;
+  padding: 1.5em;
+  margin-top: 20em;
+  margin-left: 1em;
+}
+
+.mainBoxContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.mainBoxLeft {
+  width: 10vw;
+}
+
+.mainBoxRight {
+  width: 90vw;
+}
+
+.mainBoxRightAboutMe {
+  width: 90vw;
+  display: flex;
+}
+
+.pageTitle {
+  font-size: 2em;
+  font-family: tahoma;
+  font-weight: bold;
+  margin-top: 2em;
+}
+
+.pageSubtitle {
+  color: white;
+  font-size: 1em;
+  font-family: tahoma;
+  font-weight: bold;
+  margin-top: 0.5em;
+}
+
+.pageTitleTwo {
+  font-size: 1.5em;
+  font-family: tahoma;
+  font-weight: bold;
+  margin-top: 2em;
+}
+
+.paragraphText {
+  color: white;
+  font-size: 1.25em;
+  font-family: tahoma;
+  margin-top: 0.5em;
+  margin-bottom: 5em;
+}
+
+.aboutMeButtonBox {
+  display: flex;
+  margin-top: 1em;
+  gap: 2em;
+}
+
+.aboutMeButtonResume {
+  color: #ffffff;
+  font-family: tahoma;
+  font-weight: bold;
+  border: 0.3em solid #cc5e5e;
+  padding: 0.4em;
+  width: 5.5em;
+}
+
+.aboutMeButtonResume:hover {
+  color: #773535;
+  font-family: tahoma;
+  font-weight: bold;
+  border: 0.3em solid;
+  padding: 0.4em;
+  background-color: transparent;
+}
+
+.aboutMeButtonBC {
+  color: #ffffff;
+  font-family: tahoma;
+  font-weight: bold;
+  border: 0.3em solid #cc5e5e;
+  padding: 0.4em;
+  width: 8.5em;
+}
+
+.aboutMeButtonBC:hover {
+  color: #773535;
+  font-family: tahoma;
+  font-weight: bold;
+  border: 0.3em solid;
+  padding: 0.4em;
+  background-color: transparent;
+}
+
+.bioBox {
+  margin-top: 2em;
+  width: 60em;
+}
+
+.grid-container {
+  margin-top: 2em;
+  margin-bottom: 5em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3em;
+}
+
+.box {
+  padding: 10em 1em 1em 1em;
+  text-align: center;
+  width: 25em;
+  height: 15em;
+}
+
+.formBoxContainer {
+  margin-top: 2em;
+  margin-left: 10em;
+  /* border: 0.4em solid #cc5e5e; */
+  height: 35em;
+  width: 75em;
+  display: flex;
+}
+
+.formBoxText {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  margin-bottom: 0.25em;
+}
+
+input[type="text"] {
+  color: #cc5e5e;
+  border: 0.3em solid #cc5e5e;
+  padding: 5px;
+  background-color: transparent;
+  font-size: 1.25em;
+}
+
+.formBox {
+  margin-top: 2em;
+  margin-left: 2em;
+}
+
+.formBoxTextInput {
+  width: 41.5em;
+  height: 19em;
+}
+
+textarea {
+  color: #cc5e5e;
+  border: 0.3em solid #cc5e5e;
+  padding: 5px;
+  background-color: transparent;
+  font-size: 1.25em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  resize: none;
+}
+
+.messageButton {
+  color: #ffffff;
+  font-family: tahoma;
+  font-weight: bold;
+  border: 0.3em solid #cc5e5e;
+  padding: 0.4em;
+  background-color: transparent;
+  margin: 0.8em 0 0 2.4em;
+  width: 7.5em;
+}
+
+.messageButton:hover {
+  color: #773535;
+  font-family: tahoma;
+  font-weight: bold;
+  border: 0.3em solid;
+  padding: 0.4em;
+  background-color: transparent;
+  margin: 0.8em 0 0 2.4em;
+  width: 7.5em;
+}
+
+.Bodoni {
+  background-image: url(Bodoni\ Poster.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ThingsPoster {
+  background-image: url(100\ Things\ Poster.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ThingsWebsite {
+  background-image: url(100\ Things\ Website.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.artGalleryWebsite {
+  background-image: url(Art\ Gallery\ Website.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.f1App {
+  background-image: url(F1\ App\ Redesign.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bruinsMatchbox {
+  background-image: url(Bruins\ Matchbox.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.lwfWebsite {
+  background-image: url();
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.pgPoster {
+  background-image: url(Pierre\ Gasly\ Poster.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mPoster {
+  background-image: url(Jonathan\ Marchessault\ Poster.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.jhPoster {
+  background-image: url(Jack\ Hughes\ Poster.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ddPoster {
+  background-image: url(Dynamic\ Duo\ Poster.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.lsPoster {
+  background-image: url(Logan\ Sargeant\ copy.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.epPoster {
+  background-image: url(Elias\ Pettersson\ Poster.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.desk {
+  background-image: url();
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.oldWebsite {
+  background-image: url(Old\ Website.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.artgalleryWebsite {
+  background-image: url();
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.desk {
+  background-image: url(desk.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.websiteGridContainer {
+  margin-top: 2em;
+  margin-bottom: 5em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3em;
+}
+
+.gridTitle {
+  color: white;
+  font-size: 2.5em;
+  font-family: tahoma;
+  font-weight: bold;
+  margin-top: 2em;
+}
+
+.verticalPosterGridContainer {
+  margin-top: 2em;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 3em;
+}
+
+.verticalPoster {
+  padding: 10em 1em 1em 1em;
+  text-align: center;
+  width: 12em;
+  height: 25em;
+}
+
+.horizontalPosterGridContainer {
+  margin-top: 2em;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 3em;
+}
+
+.sportsPosterContainer {
+  margin-bottom: 5em;
+}
+
+.otherGridContainer {
+  margin-top: 2em;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 3em;
+  margin-bottom: 64px;
+}
+
+hr {
+  background-color: #cc5e5e;
+  height: 0.5em;
+  border: none;
+  margin-top: 0.5em;
+}
+
+.artworkBox {
+  display: flex;
+  margin-top: 5em;
+  width: 85em;
+}
+
+.artworkTextBox {
+  margin-left: 2em;
+  color: white;
+  font-size: 1.25em;
+  font-family: tahoma;
+  margin-top: 0.5em;
+}
+
+.artworkDescription {
+  font-weight: normal;
+}
+
+.oldWebsiteImage {
+  width: 50em;
+}
+
+.thingsWebsite {
+  width: 60em;
+}
+
+.artGallery {
+  width: 60em;
+}
+
+.bruinsMatchboxImage {
+  width: 50em;
+}
+
+.epPosterImage {
+  width: 60em;
+}
+
+.pgPosterImage {
+  width: 35em;
+}
+
+.jmPosterImage {
+  width: 35em;
+}
+
+.jhPosterImage {
+  width: 35em;
+}
+
+.ddPosterImage {
+  width: 30em;
+}
+
+.lsPosterImage {
+  width: 35em;
+}
+
+.f1AppImage {
+  width: 35em;
+  height: 49em;
+}
+
+.bodoniPosterImage {
+  width: 60em;
+}
+
+.thingsPosterImage {
+  width: 60em;
+}
+
+.linkHover:hover {
+  color: #773535;
+}
+
+.secondRowImages {
+  width: 35em;
+}
+
+.secondRow {
+  display: flex;
+  align-items: flex-start;
+}
+
+.mainBoxRightImage{
+  margin: 4em 0 0 5em;
+}
+
+.headshot{
+  width: 15em;
+  
+}

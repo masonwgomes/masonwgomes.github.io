@@ -1,0 +1,282 @@
+@media only screen and (max-width: 1200px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo {
+    margin: 0;
+  }
+
+  .tab-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-direction: column;
+    text-align: center;
+    gap: 1em;
+    margin: 0;
+    margin-bottom: 1em;
+  }
+
+  .socialBox {
+    margin-left: 0em;
+    margin-top: 4.5em;
+  }
+
+  .homeText {
+    text-align: left;
+    margin-top: 1em;
+    margin-left: 0.5em;
+    font-size: 2em;
+  }
+
+  .homeTextBox {
+    justify-content: center;
+    margin: 4em 5em 3em 3em;
+  }
+
+  .mainBoxRightAboutMe {
+    align-items: center;
+    justify-content: center;
+    margin-right: 10em;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .mainBoxRightImage{
+    margin-left: 0;
+    margin-right: 1em;
+
+  }
+
+  .paragraphText {
+    font-size: 1em;
+    text-align: left;
+  }
+
+  .bioBox {
+    width: 20em;
+    margin: 0 2em 0 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+
+  .info {
+    margin: 0;
+  }
+
+  .personalInfo {
+    margin-top: 2em;
+    margin-left: 5em;
+  }
+
+  .aboutMeSection {
+    margin-right: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .selectedWorkSection {
+    margin-left: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20em;
+    text-align: center;
+  }
+
+  .websitehr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3em;
+  }
+
+  .websiteGridContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.75em;
+  }
+
+  .box {
+    width: 20em;
+    justify-items: center;
+  }
+
+  .sportsPosterContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sportshr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3em;
+  }
+
+  .horizontalPosterGridContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.75em;
+  }
+
+  .verticalPosterGridContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .posterBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2em;
+  }
+
+  .otherhr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3em;
+  }
+
+  .otherGridContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 1em;
+    margin-bottom: 7em;
+  }
+
+  .formBoxContainer {
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .formBoxLeft {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .formBoxTextInput {
+    width: 13.4em;
+  }
+
+  .contactMeHeader {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 1em;
+    width: 19em;
+  }
+
+  .verticalPoster {
+    padding: 10em 1em 1em 1em;
+    text-align: center;
+    width: 12em;
+    height: 17em;
+  }
+
+  .gridTitle {
+    margin-top: 1em;
+  }
+
+  .formBoxContainer {
+    width: 20em;
+    height: 70em;
+  }
+
+  .artworkBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20em;
+    margin-left: 0.5em;
+  }
+
+  .oldWebsiteImage {
+    width: 17.5em;
+  }
+
+  .artworkTextBox {
+    text-align: center;
+    margin: 2em 0 0 0;
+  }
+
+  .artworkDescription {
+    text-align: left;
+    margin-bottom: 4em;
+  }
+
+  .thingsWebsite {
+    width: 17.5em;
+  }
+
+  .artGallery {
+    width: 17.5em;
+  }
+
+  .bruinsMatchboxImage {
+    width: 17.5em;
+  }
+
+  .epPosterImage {
+    width: 17.5em;
+  }
+
+  .pgPosterImage {
+    width: 15em;
+  }
+
+  .jmPosterImage {
+    width: 15em;
+  }
+
+  .jhPosterImage {
+    width: 15em;
+  }
+
+  .ddPosterImage {
+    width: 15em;
+  }
+
+  .lsPosterImage {
+    width: 15em;
+  }
+
+  .f1AppImage {
+    width: 15em;
+    height: auto;
+  }
+
+  .bodoniPosterImage {
+    width: 17.5em;
+  }
+
+  .thingsPosterImage {
+    width: 17.5em;
+  }
+
+  .secondRow {
+    display: flex;
+    flex-direction: column;
+    width: 10em;
+  }
+
+  .secondRowImages {
+    width: 20em;
+  }
+}
