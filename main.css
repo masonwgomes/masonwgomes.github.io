@@ -80,7 +80,7 @@ body {
 }
 
 .homeText {
-  font-family: tahoma;
+  font-family: tahoma, Helvetica, sans-serif;
   font-weight: 600;
   text-align: left;
   font-size: 2.5em;
@@ -88,7 +88,7 @@ body {
 
 .homeTextButton {
   color: #ffffff;
-  font-family: tahoma;
+  font-family: tahoma, Helvetica, sans-serif;
   font-weight: bold;
   border: 0.3em solid #cc5e5e;
   padding: 0.4em;
@@ -97,7 +97,7 @@ body {
 
 .homeTextButton:hover {
   color: #773535;
-  font-family: tahoma;
+  font-family: tahoma, Helvetica, sans-serif;
   font-weight: bold;
   border: 0.3em solid;
   padding: 0.4em;
@@ -147,7 +147,7 @@ body {
 
 .pageTitle {
   font-size: 2em;
-  font-family: tahoma;
+  font-family: tahoma, Helvetica, sans-serif;
   font-weight: bold;
   margin-top: 2em;
 }
@@ -155,14 +155,14 @@ body {
 .pageSubtitle {
   color: white;
   font-size: 1em;
-  font-family: tahoma;
+  font-family: tahoma, Helvetica, sans-serif;
   font-weight: bold;
   margin-top: 0.5em;
 }
 
 .pageTitleTwo {
   font-size: 1.5em;
-  font-family: tahoma;
+  font-family: tahoma, Helvetica, sans-serif;
   font-weight: bold;
   margin-top: 2em;
 }
@@ -170,7 +170,7 @@ body {
 .paragraphText {
   color: white;
   font-size: 1.25em;
-  font-family: tahoma;
+  font-family: tahoma, Helvetica, sans-serif;
   margin-top: 0.5em;
   margin-bottom: 5em;
 }
@@ -183,7 +183,7 @@ body {
 
 .aboutMeButtonResume {
   color: #ffffff;
-  font-family: tahoma;
+  font-family: tahoma, Helvetica, sans-serif;
   font-weight: bold;
   border: 0.3em solid #cc5e5e;
   padding: 0.4em;
@@ -192,7 +192,7 @@ body {
 
 .aboutMeButtonResume:hover {
   color: #773535;
-  font-family: tahoma;
+  font-family: tahoma, Helvetica, sans-serif;
   font-weight: bold;
   border: 0.3em solid;
   padding: 0.4em;
@@ -201,7 +201,7 @@ body {
 
 .aboutMeButtonBC {
   color: #ffffff;
-  font-family: tahoma;
+  font-family: tahoma, Helvetica, sans-serif;
   font-weight: bold;
   border: 0.3em solid #cc5e5e;
   padding: 0.4em;
@@ -210,7 +210,7 @@ body {
 
 .aboutMeButtonBC:hover {
   color: #773535;
-  font-family: tahoma;
+  font-family: tahoma, Helvetica, sans-serif;
   font-weight: bold;
   border: 0.3em solid;
   padding: 0.4em;
@@ -247,7 +247,7 @@ body {
 }
 
 .formBoxText {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: tahoma, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 2em;
   margin-bottom: 0.25em;
@@ -277,13 +277,13 @@ textarea {
   padding: 5px;
   background-color: transparent;
   font-size: 1.25em;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: tahoma, Helvetica, sans-serif;
   resize: none;
 }
 
 .messageButton {
   color: #ffffff;
-  font-family: tahoma;
+  font-family: tahoma, Helvetica, sans-serif;
   font-weight: bold;
   border: 0.3em solid #cc5e5e;
   padding: 0.4em;
@@ -294,7 +294,7 @@ textarea {
 
 .messageButton:hover {
   color: #773535;
-  font-family: tahoma;
+  font-family: tahoma, Helvetica, sans-serif;
   font-weight: bold;
   border: 0.3em solid;
   padding: 0.4em;
@@ -447,7 +447,7 @@ textarea {
 .gridTitle {
   color: white;
   font-size: 2.5em;
-  font-family: tahoma;
+  font-family: tahoma, Helvetica, sans-serif;
   font-weight: bold;
   margin-top: 2em;
 }
@@ -502,7 +502,7 @@ hr {
   margin-left: 2em;
   color: white;
   font-size: 1.25em;
-  font-family: tahoma;
+  font-family: tahoma, Helvetica, sans-serif;
   margin-top: 0.5em;
 }
 
