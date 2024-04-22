@@ -170,9 +170,11 @@
 
   .formBoxContainer {
     margin-top: 0;
-    margin-left: 0;
+    /* margin-left: 3em; */
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .formBoxLeft {
@@ -186,6 +188,10 @@
 
   .formBoxText{
     font-size: 1em;
+  }
+
+  .formBoxBig{
+    margin-left: 0;
   }
 
   .contactMeHeader {

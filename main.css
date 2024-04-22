@@ -239,7 +239,6 @@ body {
 
 .formBoxContainer {
   margin-top: 2em;
-  margin-left: 10em;
   /* border: 0.4em solid #cc5e5e; */
   height: 35em;
   width: 75em;
@@ -263,7 +262,11 @@ input[type="text"] {
 
 .formBox {
   margin-top: 2em;
-  margin-left: 2em;
+}
+
+.formBoxBig {
+  margin-top: 2em;
+  margin-left: 5em;
 }
 
 .formBoxTextInput {
@@ -288,7 +291,7 @@ textarea {
   border: 0.3em solid #cc5e5e;
   padding: 0.4em;
   background-color: transparent;
-  margin: 0.8em 0 0 2.4em;
+  margin: 0.8em 0 0 6em;
   width: 7.5em;
 }
 
@@ -299,7 +302,7 @@ textarea {
   border: 0.3em solid;
   padding: 0.4em;
   background-color: transparent;
-  margin: 0.8em 0 0 2.4em;
+  margin: 0.8em 0 0 6em;
   width: 7.5em;
 }
 
