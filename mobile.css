@@ -191,6 +191,13 @@
 
   .formBoxRight{
     /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .messageButton{
+    margin: 2em 0 0 0;
   }
 
   .formBoxTextInput {
