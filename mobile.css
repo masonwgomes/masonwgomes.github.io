@@ -65,6 +65,10 @@
     width: 15em;
   }
 
+  .aboutMeParagraphText {
+    height: 70em;
+  }
+
   .bioBox {
     width: 20em;
     margin: 0 2em 0 1em;
@@ -83,7 +87,7 @@
   }
 
   .aboutMeSection {
-    margin-right: 1em;
+    margin-right: 1.5em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,7 +95,7 @@
   }
 
   .selectedWorkSection {
-    margin-left: 1em;
+    margin-left: 0.5em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -173,13 +177,20 @@
     /* margin-left: 3em; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    width: 20em;
+    height: 62em;
   }
 
   .formBoxLeft {
     display: flex;
     flex-direction: column;
+    height: 25em;
+  }
+
+  .formBoxRight{
+    /* height: 100%; */
   }
 
   .formBoxTextInput {
@@ -199,7 +210,7 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
-    margin-left: 1em;
+    margin-left: 0.5em;
     width: 19em;
   }
 
@@ -212,11 +223,6 @@
 
   .gridTitle {
     margin-top: 1em;
-  }
-
-  .formBoxContainer {
-    width: 20em;
-    height: 70em;
   }
 
   .artworkBox {
