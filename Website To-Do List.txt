@@ -1,7 +1,0 @@
-Living Wage Foundation website
-add elias pettersson poster
-resize posters
-fix Work box alignment and clickability
-finalize about me paragraph (shorten)
-business card download
-secure website
