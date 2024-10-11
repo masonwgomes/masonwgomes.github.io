@@ -355,4 +355,12 @@
   .aisLogoImage{
     width: 75%;
   }
+
+  .animationhr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3em;
+  }
 }
