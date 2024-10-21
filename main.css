@@ -421,7 +421,7 @@ textarea {
 }
 
 .oldWebsite {
-  background-image: url(Old\ Website.png);
+  background-image: url(website\ landing.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -563,8 +563,8 @@ hr {
 }
 
 .f1AppImage {
-  width: 35em;
-  height: 49em;
+  width: 20em;
+  height: auto;
 }
 
 .bodoniPosterImage {
