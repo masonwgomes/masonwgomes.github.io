@@ -714,3 +714,76 @@ hr {
   height: auto;
   margin-top: 1em;
 }
+
+.baradDurIllustration {
+  background-image: url(barad\ dur\ illustration-13.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 10em;
+}
+
+.shireIllustration {
+  background-image: url(Shire\ Illustration-08.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 10em;
+}
+
+.ringIllustration {
+  background-image: url(Ring\ Shadow-06.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 10em;
+}
+
+.oldMarinesPoster {
+  background-image: url(Marines\ FInal-08.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.newMarinesPoster {
+  background-image: url(Marines\ FInal-09.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.dublinPoster {
+  background-image: url(Dublin-25.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.umdDiscGolf {
+  background-image: url(UMD\ Frisbee\ Golf\ Welcome\ Sign.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bgcRackCard {
+  background-image: url(Teen\ Center\ Rack\ Card\ V3\ FRONT.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.rackCard {
+  width: 20em;
+}
+
+.rackCardBottom {
+  margin-top: 3em;
+}
+
+.bottomArtwork{
+  display: flex;
+  gap: 1em;
+  margin-top: 1em;
+}
