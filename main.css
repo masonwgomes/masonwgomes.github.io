@@ -787,3 +787,17 @@ hr {
   gap: 1em;
   margin-top: 1em;
 }
+
+.capstoneFinal {
+  background-image: url(capstoneFinal.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.boxCapstone{
+  padding: 1em 1em 1em 1em;
+  text-align: center;
+  width: 20em;
+  height: 25em;
+}
